@@ -30,11 +30,7 @@
             return false;
         });
 
-        /*======== Sticky header ===========*/
-        // $('.navbar-collapse a').on('click',function(){
-        //   $(".navbar-collapse").collapse('hide');
-        // });
-
+    
         $window.on('scroll', function() {
           if ($(".navbar").offset().top > 100) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -91,49 +87,15 @@
             });
         });
         
-        /*======== Parallax js ===========*/
-        // $window.stellar({
-        //     responsive: true,
-        //     positionProperty: 'position',
-        //     horizontalScrolling: false
-        // });
-        
+      
         /*======== Magnific Popup ===========*/
         $('.work-popup').magnificPopup({type:'image'});
         
-         /*========  CounterUp ===========*/
-        // $('.counter').counterUp({
-        //     delay: 4,
-        //      time: 800
-        // });
- 
-        /*========   WOW js===========*/
-        // new WOW({ mobile: false }).init();
     
         /*======== jQuery mixItUp ===========*/
         $('.work-inner').mixItUp();
     
-        /*========   owl carousel testimonial ===========*/
-        // $(".testimonial-list").owlCarousel({
-        //     loop:true,
-        //     margin:30,
-        //     nav:false,
-        //     dots:true,
-        //     autoplay:true,
-        //     autoplayHoverPause:true,
-        //     responsive:{
-        //         0:{
-        //             items:1
-        //         },
-        //         600:{
-        //             items:2
-        //         },
-        //         1000:{
-        //             items:3
-        //         }
-        //     }
-        // });
-    
+   
 
     });
     
